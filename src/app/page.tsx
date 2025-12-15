@@ -6,7 +6,6 @@ import HeroShowcaseSplitOverlay from '@/components/sections/hero/HeroShowcaseSpl
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TagAboutCard from '@/components/sections/about/TagAboutCard';
 import TestimonialCardFourteen from '@/components/sections/testimonial/TestimonialCardFourteen';
-import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
@@ -107,7 +106,7 @@ export default function LandingPage() {
       </div>
 
       <div id="testimonials" data-section="testimonials">
-        <TestimonialCardOne
+        <TestimonialCardFourteen
           title="What Our Customers Say"
           description="Hear from the coffee lovers who visit us daily"
           tag="Reviews"
@@ -116,7 +115,7 @@ export default function LandingPage() {
           testimonials={[
             {
               id: "1",
-              quote: "Best espresso in town! The baristas really know their craft and the atmosphere is perfect for working or catching up with friends.",
+              text: "Best espresso in town! The baristas really know their craft and the atmosphere is perfect for working or catching up with friends.",
               name: "Sarah Martinez",
               role: "Coffee Enthusiast",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796972100-1s6frl4x.jpg",
@@ -124,7 +123,7 @@ export default function LandingPage() {
             },
             {
               id: "2",
-              quote: "I've been coming here for three months and haven't ordered the same drink twice. The menu variety is incredible and everything tastes fresh.",
+              text: "I've been coming here for three months and haven't ordered the same drink twice. The menu variety is incredible and everything tastes fresh.",
               name: "James Chen",
               role: "Regular Customer",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796973211-0eyv1mrm.jpg",
@@ -132,7 +131,7 @@ export default function LandingPage() {
             },
             {
               id: "3",
-              quote: "The cold brew is my go-to during summer. Smooth, refreshing, and perfectly balanced. This is my happy place!",
+              text: "The cold brew is my go-to during summer. Smooth, refreshing, and perfectly balanced. This is my happy place!",
               name: "Emma Thompson",
               role: "Summer Visitor",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796974185-m5eyx5gf.jpg",
@@ -140,7 +139,7 @@ export default function LandingPage() {
             },
             {
               id: "4",
-              quote: "As someone who travels for work, I appreciate consistent quality. Coffee Haven nails it every single time I visit.",
+              text: "As someone who travels for work, I appreciate consistent quality. Coffee Haven nails it every single time I visit.",
               name: "Michael Park",
               role: "Traveling Professional",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796975342-jsytkvh0.jpg",
