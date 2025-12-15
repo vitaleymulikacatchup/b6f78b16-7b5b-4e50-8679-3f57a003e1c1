@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -120,7 +120,8 @@ export default function LandingPage() {
               handle: "@sarahloves_coffee",
               testimonial: "Best espresso in town! The baristas really know their craft and the atmosphere is perfect for working or catching up with friends.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796972100-1s6frl4x.jpg",
-              imageAlt: "Sarah Martinez"
+              imageAlt: "Sarah Martinez",
+              rating: 5
             },
             {
               id: "2",
@@ -128,7 +129,8 @@ export default function LandingPage() {
               handle: "@jameschen_coffee",
               testimonial: "I've been coming here for three months and haven't ordered the same drink twice. The menu variety is incredible and everything tastes fresh.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796973211-0eyv1mrm.jpg",
-              imageAlt: "James Chen"
+              imageAlt: "James Chen",
+              rating: 5
             },
             {
               id: "3",
@@ -136,7 +138,8 @@ export default function LandingPage() {
               handle: "@emmathompson_",
               testimonial: "The cold brew is my go-to during summer. Smooth, refreshing, and perfectly balanced. This is my happy place!",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796974185-m5eyx5gf.jpg",
-              imageAlt: "Emma Thompson"
+              imageAlt: "Emma Thompson",
+              rating: 5
             },
             {
               id: "4",
@@ -144,7 +147,8 @@ export default function LandingPage() {
               handle: "@michaelpark88",
               testimonial: "As someone who travels for work, I appreciate consistent quality. Coffee Haven nails it every single time I visit.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796975342-jsytkvh0.jpg",
-              imageAlt: "Michael Park"
+              imageAlt: "Michael Park",
+              rating: 5
             }
           ]}
           useInvertedBackground="noInvert"
