@@ -6,6 +6,7 @@ import HeroShowcaseSplitOverlay from '@/components/sections/hero/HeroShowcaseSpl
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TagAboutCard from '@/components/sections/about/TagAboutCard';
 import TestimonialCardFourteen from '@/components/sections/testimonial/TestimonialCardFourteen';
+import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
@@ -106,52 +107,46 @@ export default function LandingPage() {
       </div>
 
       <div id="testimonials" data-section="testimonials">
-        <TestimonialCardFourteen
+        <TestimonialCardOne
           title="What Our Customers Say"
           description="Hear from the coffee lovers who visit us daily"
           tag="Reviews"
           textboxLayout="default"
-          animationType="slide-up"
-          containerStyle="default"
+          useInvertedBackground="noInvert"
           testimonials={[
             {
               id: "1",
+              quote: "Best espresso in town! The baristas really know their craft and the atmosphere is perfect for working or catching up with friends.",
               name: "Sarah Martinez",
-              handle: "@sarahloves_coffee",
-              testimonial: "Best espresso in town! The baristas really know their craft and the atmosphere is perfect for working or catching up with friends.",
+              role: "Coffee Enthusiast",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796972100-1s6frl4x.jpg",
-              imageAlt: "Sarah Martinez",
-              rating: 5
+              imageAlt: "Sarah Martinez"
             },
             {
               id: "2",
+              quote: "I've been coming here for three months and haven't ordered the same drink twice. The menu variety is incredible and everything tastes fresh.",
               name: "James Chen",
-              handle: "@jameschen_coffee",
-              testimonial: "I've been coming here for three months and haven't ordered the same drink twice. The menu variety is incredible and everything tastes fresh.",
+              role: "Regular Customer",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796973211-0eyv1mrm.jpg",
-              imageAlt: "James Chen",
-              rating: 5
+              imageAlt: "James Chen"
             },
             {
               id: "3",
+              quote: "The cold brew is my go-to during summer. Smooth, refreshing, and perfectly balanced. This is my happy place!",
               name: "Emma Thompson",
-              handle: "@emmathompson_",
-              testimonial: "The cold brew is my go-to during summer. Smooth, refreshing, and perfectly balanced. This is my happy place!",
+              role: "Summer Visitor",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796974185-m5eyx5gf.jpg",
-              imageAlt: "Emma Thompson",
-              rating: 5
+              imageAlt: "Emma Thompson"
             },
             {
               id: "4",
+              quote: "As someone who travels for work, I appreciate consistent quality. Coffee Haven nails it every single time I visit.",
               name: "Michael Park",
-              handle: "@michaelpark88",
-              testimonial: "As someone who travels for work, I appreciate consistent quality. Coffee Haven nails it every single time I visit.",
+              role: "Traveling Professional",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1765796975342-jsytkvh0.jpg",
-              imageAlt: "Michael Park",
-              rating: 5
+              imageAlt: "Michael Park"
             }
           ]}
-          useInvertedBackground="noInvert"
         />
       </div>
 
